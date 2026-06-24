@@ -1,0 +1,25 @@
+// Rate Policy Actions
+resource "akamai_appsec_rate_policy_action" "main_page_view_requests" {
+  config_id          = local.config_id
+  security_policy_id = akamai_appsec_rate_protection.main.security_policy_id
+  rate_policy_id     = akamai_appsec_rate_policy.page_view_requests.rate_policy_id
+  ipv4_action        = "alert"
+  ipv6_action        = "alert"
+}
+
+resource "akamai_appsec_rate_policy_action" "main_post_and_put_requests" {
+  config_id          = local.config_id
+  security_policy_id = akamai_appsec_rate_protection.main.security_policy_id
+  rate_policy_id     = akamai_appsec_rate_policy.post_and_put_requests.rate_policy_id
+  ipv4_action        = "alert"
+  ipv6_action        = "alert"
+}
+
+resource "akamai_appsec_rate_policy_action" "main_origin_error" {
+  config_id          = local.config_id
+  security_policy_id = akamai_appsec_rate_protection.main.security_policy_id
+  rate_policy_id     = akamai_appsec_rate_policy.origin_error.rate_policy_id
+  ipv4_action        = "alert"
+  ipv6_action        = "alert"
+}
+
