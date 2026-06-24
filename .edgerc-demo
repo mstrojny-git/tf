@@ -1,0 +1,19 @@
+[default]
+client_secret = ...
+host = akab-...net
+access_token = akab....puojb
+client_token = akab-.......xdio8
+
+[emea_sec]
+client_secret = ...
+host = akab-...net
+access_token = akab....puojb
+client_token = akab-.......xdio8
+account_key = B-M-26222K5:1-8BYUX
+
+[permission2]
+client_secret = ...
+host = akab-...net
+access_token = akab....puojb
+client_token = akab-.......xdio8
+account_key = F-AC-3110948:1-2RBL

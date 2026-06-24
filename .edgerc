@@ -1,0 +1,78 @@
+[default]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+
+[emea_sec]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = B-M-26EUYK5:1-8BYUX
+
+[aka_pro]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = 1-6JHGX:1-8BYUX
+
+[aap15]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = B-W-LT70VS:1-8BYUX
+
+[usercentrics]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = F-AC-3110948:1-2RBL
+
+[viking]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = F-AC-1720453:1-2RBL
+
+[grundfos]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = 1-4KOX7D:1-2RBL
+
+[borica]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = F-AC-4918030:1-5G3LB
+
+[sbab]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = F-AC-813915:1-5G3LB
+
+[skf]
+client_secret = vXyLU0h6D3Nfnq18GSKGx+Ru5I7YvBqgx5SOFr8+e1k=
+host = akab-ccxjfbcoksyfvte4-5xrjmw6yyvjr7zns.luna.akamaiapis.net
+access_token = akab-q5op5vqgvf4g6gbc-an4giyi4aubpupjb
+client_token = akab-povv47b4ql3kdc7i-zcycrsehteelmb3c
+client_token = akab-jsbjlr4tzsai767k-n4nirq2rxq5a5iru
+account_key = 1-2WV4V1:1-2RBL
