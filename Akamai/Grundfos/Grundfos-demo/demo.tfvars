@@ -1,0 +1,1 @@
+penalty-box = "alert"
