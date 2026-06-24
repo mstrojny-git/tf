@@ -1,0 +1,45 @@
+// Global Advanced
+resource "akamai_appsec_advanced_settings_logging" "logging" {
+  config_id = local.config_id
+  logging = jsonencode(
+    {
+      "allowSampling" : true,
+      "cookies" : {
+        "type" : "all"
+      },
+      "customHeaders" : {
+        "type" : "all"
+      },
+      "standardHeaders" : {
+        "type" : "all"
+      }
+    }
+  )
+}
+
+resource "akamai_appsec_advanced_settings_pragma_header" "pragma_header" {
+  config_id = local.config_id
+  pragma_header = jsonencode(
+    {}
+  )
+}
+
+resource "akamai_appsec_advanced_settings_attack_payload_logging" "attack_payload_logging" {
+  config_id = local.config_id
+  attack_payload_logging = jsonencode(
+    {
+      "enabled" : true,
+      "requestBody" : {
+        "type" : "ATTACK_PAYLOAD"
+      },
+      "responseBody" : {
+        "type" : "ATTACK_PAYLOAD"
+      }
+    }
+  )
+}
+
+resource "akamai_appsec_advanced_settings_request_body" "config_settings" {
+  config_id                     = local.config_id
+  request_body_inspection_limit = "default"
+}

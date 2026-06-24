@@ -1,0 +1,112 @@
+resource "akamai_appsec_match_target" "website_2584438" {
+  config_id = local.config_id
+  match_target = jsonencode(
+    {
+      "defaultFile" : "NO_MATCH",
+      "filePaths" : [
+        "/*"
+      ],
+      "hostnames" : [
+        "online.vikingoffice.at",
+        "static.viking.de",
+        "viking-direct.co.uk",
+        "www.viking-direkt.ch",
+        "www.viking.de",
+        "www.viking-direct.co.uk",
+        "online.vikingoffice.nl",
+        "static.vikingdirect.nl",
+        "www.officedepot.eu",
+        "online.vikingoffice.de",
+        "www.viking-direct.be",
+        "online.vikingoffice.be",
+        "static.vikingdirekt.at",
+        "www.vikingdirect.nl",
+        "www.vikingdirect.be",
+        "static.vikingdirect.ie",
+        "www.vikingoffice.pl",
+        "online.vikingoffice.co.uk",
+        "online.vikingoffice.ie",
+        "online.officedepot.ie",
+        "static.viking-direct.co.uk",
+        "online.vikingoffice.ch",
+        "www.viking-direct.lu",
+        "www.vikingdirekt.at",
+        "www.vikingdirect.ie",
+        "www.vikingdirekt.ch"
+      ],
+      "isNegativeFileExtensionMatch" : false,
+      "isNegativePathMatch" : false,
+      "bypassNetworkLists" : [
+        {
+          "id" : "14121_IMAGEMANAGERSERVERS",
+          "name" : "Image Manager Servers"
+        },
+        {
+          "id" : "16656_CPISERVERS",
+          "name" : "A2 Servers"
+        },
+        {
+          "id" : "76250_SECURITYBYPASSLIST",
+          "name" : "Security Bypass List"
+        }
+      ],
+      "securityPolicy" : {
+        "policyId" : akamai_appsec_security_policy.production.security_policy_id
+      },
+      "sequence" : 0,
+      "type" : "website"
+    }
+  )
+}
+resource "akamai_appsec_match_target" "website_2586384" {
+  config_id = local.config_id
+  match_target = jsonencode(
+    {
+      "defaultFile" : "NO_MATCH",
+      "filePaths" : [
+        "/*"
+      ],
+      "hostnames" : [
+        "uat.vikingdirekt.at",
+        "uat.viking-direct.lu",
+        "perf.vikingoffice.pl",
+        "perf.viking-direct.lu",
+        "stag.viking-direct.co.uk",
+        "uat.vikingdirect.be",
+        "perf.vikingdirekt.at",
+        "stag.viking.de",
+        "uat.vikingdirect.nl",
+        "uat.vikingdirect.ie",
+        "uat.viking.de",
+        "uat.vikingoffice.pl",
+        "perf.viking.de",
+        "uat.vikingdirekt.ch",
+        "perf.vikingdirect.be",
+        "perf.viking-direct.co.uk",
+        "stag.vikingdirekt.at",
+        "stag.vikingdirect.ie",
+        "perf.vikingdirect.nl",
+        "stag.vikingdirect.nl",
+        "uat.viking-direct.co.uk",
+        "perf.vikingdirect.ie"
+      ],
+      "isNegativeFileExtensionMatch" : false,
+      "isNegativePathMatch" : false,
+      "bypassNetworkLists" : [
+        {
+          "id" : "14121_IMAGEMANAGERSERVERS",
+          "name" : "Image Manager Servers"
+        },
+        {
+          "id" : "16656_CPISERVERS",
+          "name" : "A2 Servers"
+        }
+      ],
+      "securityPolicy" : {
+        "policyId" : akamai_appsec_security_policy.testing.security_policy_id
+      },
+      "sequence" : 0,
+      "type" : "website"
+    }
+  )
+}
