@@ -1,0 +1,16 @@
+// Enable/Disable Protections for policy tfdemo
+resource "akamai_appsec_security_policy_protections" "tfdemo" {
+  config_id                         = local.config_id
+  security_policy_id                = akamai_appsec_security_policy.tfdemo.security_policy_id
+  apply_account_protection_controls = false
+  apply_api_constraints             = true
+  apply_application_layer_controls  = true
+  apply_botman_controls             = false
+  apply_malware_controls            = false
+  apply_network_layer_controls      = true
+  apply_rate_controls               = true
+  apply_reputation_controls         = true
+  apply_slow_post_controls          = true
+  apply_url_protection_controls     = false
+}
+
